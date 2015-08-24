@@ -1,0 +1,7 @@
+node_modules/
+build/
+.sass-cache/
+.idea
+app/styles/vendor
+scp.sh
+

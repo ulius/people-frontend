@@ -1,0 +1,29 @@
+var keyMirror = require('react/lib/keyMirror');
+
+module.exports = keyMirror({
+
+  QUERY_FAMILIES: null,
+  QUERY_FAMILIES_SUCCESS: null,
+  QUERY_FAMILIES_FAIL: null,
+  
+  CREATE_FAMILIES: null,
+  CREATE_FAMILIES_SUCCESS: null,
+  CREATE_FAMILIES_FAIL: null,
+
+  UPDATE_FAMILIES: null,
+  UPDATE_FAMILIES_SUCCESS: null,
+  UPDATE_FAMILIES_FAIL: null,
+
+  CREATE_PEOPLE: null,
+  CREATE_PEOPLE_SUCCESS: null,
+  CREATE_PEOPLE_FAIL: null,
+
+  UPDATE_PEOPLE: null,
+  UPDATE_PEOPLE_SUCCESS: null,
+  UPDATE_PEOPLE_FAIL: null,
+
+  DELETE_PEOPLE: null,
+  DELETE_PEOPLE_SUCCESS: null,
+  DELETE_PEOPLE_FAIL: null
+
+});

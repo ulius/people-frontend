@@ -1,0 +1,23 @@
+
+// Vendor
+@import "vendor/bootstrap.css";
+@import "vendor/inspinia/style.scss";
+@import "vendor/react-select.css";
+@import "vendor/rc-datepicker.css";
+
+// Vendor overrides
+@import "partials/bootstrap-overrides.scss";
+
+// Styles
+@import "partials/drivers.scss";
+@import "partials/status/depottree.scss";
+@import "partials/orders.scss";
+@import "partials/pools.scss";
+@import "partials/drivertree.scss";
+@import "partials/reports.scss";
+
+body {
+  background: #fff;
+}
+
+
